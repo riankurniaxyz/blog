@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="59.99995mm"
+   height="59.99995mm"
+   viewBox="0 0 59.99995 59.99995"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="master.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.1616468"
+     inkscape:cx="131.27915"
+     inkscape:cy="53.372505"
+     inkscape:window-width="1920"
+     inkscape:window-height="1050"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient7"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#ffdd55;stop-opacity:1;"
+         offset="0"
+         id="stop8" />
+      <stop
+         style="stop-color:#7e4fc4;stop-opacity:0.99294066;"
+         offset="1"
+         id="stop9" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7"
+       id="linearGradient9"
+       x1="51.921646"
+       y1="63.659058"
+       x2="109.5884"
+       y2="63.659058"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0404609,0,0,1.1028976,-4.0224428,-150.20941)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-50.000049,-50.000049)">
+    <path
+       id="rect1"
+       style="fill:url(#linearGradient9);stroke-width:0.283427"
+       d="m 50.000049,-53.999805 c 0,2.215998 1.783758,3.999756 3.999756,3.999756 h 52.000445 c 2.216,0 3.99975,-1.783758 3.99975,-3.999756 V -106.00025 C 110,-108.21625 108.21625,-110 106.00025,-110 H 53.999805 c -2.215998,0 -3.999756,1.78375 -3.999756,3.99975 z m 4.999695,-6.00015 V -100.0001 c 0,-2.76999 2.230214,-4.99969 5.000211,-4.99969 H 100.0001 c 2.76999,0 4.99969,2.2297 4.99969,4.99969 v 40.000145 c 0,2.769997 -2.2297,5.000211 -4.99969,5.000211 H 59.999955 c -2.769997,0 -5.000211,-2.230214 -5.000211,-5.000211 z"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       style="font-size:38.8056px;fill:#9900ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="55.801083"
+       y="91.810707"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.8056px;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font';fill:#9900ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="55.801083"
+         y="91.810707">rk</tspan></text>
+  </g>
+</svg>
