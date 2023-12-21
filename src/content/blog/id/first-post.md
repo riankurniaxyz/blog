@@ -17,7 +17,7 @@ Blog ini dibuat dengan sangat sederhana dan mungkin tampilannya akan banyak beru
 
 Website ini akan berisi mengenai hal-hal yang saya pikirkan dan yang saya anggap menarik. Karena saya lulusan Matematika mungkin akan banyak postingan yang saya ambil dari catatan kuliah saya selama di Bandung. Selain Matematika, topik lain yang membuat saya tertarik adalah pemrograman dan teknologi secara umum. Of course, I'm not an expert of those two fields, so spare me for my mediocrity.
 
-Kalau kalian liat postingan ini beberapa hari setelah published, kalian akan sadar kalau blog ini belum punya kolom komentar. Tenang, di postingan-postingan selanjutnya akan ditambahkan kolom untuk komentar. Please feel free to reach out to me via email or in any social media (I mean is Instagram, the only one I have). I'm happy to engage in conversation with you.
+Kalau kalian liat postingan ini beberapa hari setelah published, kalian akan sadar kalau blog ini belum punya kolom komentar. Kolom komentar akan ditambahkan di postingan-postingan selanjutnya. Please feel free to reach out to me via email or in any social media (I mean is Instagram, the only one I have). I'm happy to engage in conversation with you.
 
-Thanks for visiting, see you soon enough. 😁
+Thanks for visiting, see you again soon. 😁
 

@@ -4,6 +4,8 @@ import Card from "@components/Card";
 import slugify from "@utils/slugify";
 import type { CollectionEntry } from "astro:content";
 
+import { useTranslatedPath } from '../i18n/utils';
+
 export type SearchItem = {
   title: string;
   description: string;
@@ -12,6 +14,7 @@ export type SearchItem = {
 
 interface Props {
   searchList: SearchItem[];
+  lang: "en" | "id";
 }
 
 interface SearchResult {
@@ -19,12 +22,14 @@ interface SearchResult {
   refIndex: number;
 }
 
-export default function SearchBar({ searchList }: Props) {
+export default function SearchBar({ searchList, lang }: Props) {
   const inputRef = useRef<HTMLInputElement>(null);
   const [inputVal, setInputVal] = useState("");
   const [searchResults, setSearchResults] = useState<SearchResult[] | null>(
     null
   );
+
+const translatePath = useTranslatedPath(lang);
 
   const handleChange = (e: React.FormEvent<HTMLInputElement>) => {
     setInputVal(e.currentTarget.value);
@@ -73,6 +78,7 @@ export default function SearchBar({ searchList }: Props) {
     }
   }, [inputVal]);
 
+
   return (
     <>
       <label className="relative block">
@@ -107,11 +113,13 @@ export default function SearchBar({ searchList }: Props) {
         </div>
       )}
 
+
       <ul>
         {searchResults &&
           searchResults.map(({ item, refIndex }) => (
             <Card
-              href={`/posts/${slugify(item.data)}`}
+              // href={`/posts/${slugify(item.data)}`}
+              href={`${translatePath("/posts")}/${slugify(item.data)}`}
               frontmatter={item.data}
               key={`${refIndex}-${slugify(item.data)}`}
             />

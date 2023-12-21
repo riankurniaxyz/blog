@@ -68,7 +68,7 @@ import LanguagePicker from '../components/LanguagePicker.astro';
           </li>
           <li>
             <LinkButton
-              href="/search"
+                    href={ translatePath("/search")}
               className={`focus-outline p-3 sm:p-1 ${
                 activeNav === "search" ? "active" : ""
               } flex`}

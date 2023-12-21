@@ -90,7 +90,6 @@ window.onload = () => {
     let currentUrl = window.location.pathname;
     let urlLang = currentUrl.slice(1,3);
     if (langValue==="en" && urlLang !== "en") {
-        // window.location.href = '/en' + currentUrl;
         langValue = 'id';
         setLangPreference();
     }

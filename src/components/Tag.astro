@@ -5,6 +5,10 @@ export interface Props {
 }
 
 const { name, size = "sm" } = Astro.props;
+
+import { getLangFromUrl, useTranslatedPath } from '../i18n/utils';
+const lang = getLangFromUrl(Astro.url);
+const translatePath = useTranslatedPath(lang);
 ---
 
 <li
@@ -13,7 +17,7 @@ const { name, size = "sm" } = Astro.props;
   }`}
 >
   <a
-    href={`/tags/${name.toLowerCase()}`}
+      href={`${translatePath("/tags")}/${name.toLowerCase()}`}
     transition:name={name.toLowerCase()}
     class={`${size === "sm" ? "text-sm" : "text-lg"} pr-2 group`}
   >
