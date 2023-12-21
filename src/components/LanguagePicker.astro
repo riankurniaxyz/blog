@@ -1,0 +1,28 @@
+---
+import { languages } from '../i18n/ui';
+---
+
+<div id="lang-box" class="pl-20 w-30 sm:pl-24">
+  <button id="id-btn" class="text-sm font-bold py-1 px-2 rounded-l">
+    ID
+  </button>
+  <button id="en-btn" class="text-sm font-bold py-1 px-2 rounded-r">
+    EN
+  </button>
+</div>
+
+<style>
+    #id-btn::before {
+        content: "🇮🇩";
+    }
+    #en-btn::before {
+        content: "🇺🇸";
+    }
+    .bg-button {
+        background-color: #9990ff;
+    }
+    .bg-hover:hover {
+        background-color: #9990ff;
+    }
+</style>
+

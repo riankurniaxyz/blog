@@ -8,9 +8,8 @@ import Card from "@components/Card";
 import getSortedPosts from "@utils/getSortedPosts";
 import slugify from "@utils/slugify";
 
-// const posts = await getCollection("blog");
 const posts = await getCollection("blog", ({ id }) => {
-return !id.startsWith('en/')
+return id.startsWith('en/')
 });
 
 const sortedPosts = getSortedPosts(posts);
@@ -25,7 +24,6 @@ const sortedPosts = getSortedPosts(posts);
       </figure>
     </section>
 
-
     <section id="recent-posts">
       <h2>Recent Posts</h2>
       <ul>
@@ -36,7 +34,7 @@ const sortedPosts = getSortedPosts(posts);
               ({ data }, index) =>
                 index < 3 && (
                   <Card
-                    href={`/posts/${slugify(data)}`}
+                  href={`/en/posts/${slugify(data)}`}
                     frontmatter={data}
                     secHeading={false}
                   />
@@ -45,7 +43,7 @@ const sortedPosts = getSortedPosts(posts);
         }
       </ul>
       <div class="all-posts-btn-wrapper">
-        <LinkButton href="/posts">
+          <LinkButton href="/en/posts">
           All Posts
           <svg xmlns="http://www.w3.org/2000/svg"
             ><path

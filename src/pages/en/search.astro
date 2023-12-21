@@ -10,7 +10,7 @@ import SearchBar from "@components/Search";
 // Retrieve all articles
 // const posts = await getCollection("blog", ({ data }) => !data.draft);
 const posts = await getCollection("blog", ({ id }) => {
-return !id.startsWith('en/')
+return id.startsWith('en/')
 });
 
 // List of items to search in
