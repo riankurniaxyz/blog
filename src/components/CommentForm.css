@@ -1,0 +1,107 @@
+input, .new-message-input {
+    color: black;
+    padding: 8px;
+}
+
+input {
+    width: 160px;
+    border-radius: 0.25rem;
+}
+
+.new-message-input {
+    width: 100%;
+    height: 100px;
+    border-radius: 0.25rem;
+    margin-bottom: 4px;
+    resize: none;
+}
+
+form {
+    padding: 12px 24px;
+    border-radius: 0.5rem;
+}
+
+.send-button, .signin-btn {
+    background-color: #9990ff;
+    padding: 8px;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    color: white;
+}
+
+
+.comment-box {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-top: 8px;
+}
+
+.comment-box .comment-header {
+  color: hsl(235, 50%, 67%);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .25rem;
+  font-size: .75em;
+}
+
+.comment-footer {
+  display: flex;
+  gap: .5rem;
+  margin-top: .5rem;
+  justify-content: space-between;
+}
+
+.reply-button, .getreplies-button {
+    font-size: 0.75rem;
+}
+
+.reply-button:hover, .getreplies-button:hover {
+  color: hsl(235, 50%, 67%);
+}
+
+.btn-CommentsVisibility {
+    background-color: #9990ff;
+    color: white;
+    padding: 6px;
+    margin-top: 8px;
+    border-radius: 0.25rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.collapse-line {
+  border: none;
+  background: none;
+  padding: 0;
+  width: 15px;
+  margin-top: .5rem;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  transform: translateX(-50%);
+}
+
+.collapse-line:hover::before,
+.collapse-line:focus-visible::before {
+  background-color: hsl(235, 100%, 60%);
+}
+
+.collapse-line::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background-color: hsl(235, 50%, 74%);
+  transition: background-color 100ms ease-in-out;
+}
+
+.signin-options {
+  background-color: #9990ff;
+  color: white;
+  font-weight: bold;
+}
+

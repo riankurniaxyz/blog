@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Written by Treer (gitlab.com/Treer) -->
+
+<svg
+   version="1.1"
+   width="600"
+   height="600"
+   fill="white"
+   id="svg4"
+   sodipodi:docname="user-flat-3.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.4066667"
+     inkscape:cx="299.64455"
+     inkscape:cy="300"
+     inkscape:window-width="1920"
+     inkscape:window-height="1050"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <title
+     id="title1">Abstract user icon</title>
+  <defs
+     id="defs1">
+    <clipPath
+       id="circular-border">
+      <circle
+         cx="300"
+         cy="300"
+         r="250"
+         id="circle1" />
+    </clipPath>
+  </defs>
+  <circle
+     cx="300"
+     cy="300"
+     r="280"
+     fill="black"
+     id="circle2" />
+  <circle
+     cx="300"
+     cy="230"
+     r="100"
+     id="circle3"
+     style="fill:#ffffff;fill-opacity:1" />
+  <circle
+     cx="300"
+     cy="550"
+     r="190"
+     clip-path="url(#circular-border)"
+     id="circle4"
+     style="fill:#ffffff;fill-opacity:1" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Abstract user icon</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -7,13 +7,15 @@ import Datetime from "@components/Datetime";
 import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@utils/slugify";
 
+import Comments from "@components/CommentForm.jsx"
+
 export interface Props {
   post: CollectionEntry<"blog">;
 }
 
 const { post } = Astro.props;
 
-const { title, author, description, ogImage, canonicalURL, pubDatetime, tags } =
+const { title, author, description, ogImage, canonicalURL, pubDatetime, tags, postSlug} =
   post.data;
 
 const { Content } = await post.render();
@@ -44,7 +46,10 @@ const ogUrl = new URL(
     <ul class="tags-container">
       {tags.map(tag => <Tag name={slugifyStr(tag)} />)}
     </ul>
+
+    <Comments slugId={`${postSlug}`} client:visible />
   </main>
+
   <Footer />
 </Layout>
 

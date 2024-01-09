@@ -26,6 +26,7 @@ module.exports = {
         base: withOpacity("--color-text-base"),
         accent: withOpacity("--color-accent"),
         inverted: withOpacity("--color-fill"),
+        white: "rgb(255,255,255)"
       },
     },
     backgroundColor: {
@@ -35,6 +36,7 @@ module.exports = {
         inverted: withOpacity("--color-text-base"),
         card: withOpacity("--color-card"),
         "card-muted": withOpacity("--color-card-muted"),
+        black: "rgb(0,0,0)"
       },
     },
     outlineColor: {
